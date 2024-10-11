@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.caixa-1 {
+    display: inline-block;
+    width: 50vw;
+}
+
+.caixa-2 {
+    display: inline-block;
+    width: 40vw;
+    position: absolute;
+    margin: 250px 148px 0px 0px;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+    
+}
+
+.link-menu {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.button-log {
+    border-radius: 20.5px;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+img {
+   
+    height: 550px;
+    margin: 0px 86px 180px 125px;
+    width: 700px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 590px;
+    margin: 32px 146px 65px 0px;
+    
+    
+}
+
+.button-log-2 {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(112, 110, 110);
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+
+
+ }
+
+
+ @media screen and (max-width: 900px ) {
+
+    .caixa-1 {
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+
+    .caixa-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 64px;
+      
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+   .button-log {
+        display: none;
+
+   }
+
+   p {
+    display: none;
+
+   }
+
+   h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: normal;
+   }
+
+   h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 1px 79px 17px 15px;
+   }
+
+   img {
+    width: 354px;
+    height: 260.236px;
+    margin: 0%;
+    margin-left: 15px;
+   
+   }
+    
+ }
